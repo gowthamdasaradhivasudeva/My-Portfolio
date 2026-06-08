@@ -4,11 +4,12 @@ window.addEventListener("load", () => {
     window.scrollTo(0, 0);
 });
 
-const navLinks = document.querySelectorAll('.nav-link');
-const menu = document.querySelector('.navbar-collapse');
-
-navLinks.forEach(link => {
+document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
-        menu.classList.remove('show');
+        const navbarCollapse = document.getElementById('navbarNav');
+
+        if (navbarCollapse.classList.contains('show')) {
+            navbarCollapse.classList.remove('show');
+        }
     });
 });
