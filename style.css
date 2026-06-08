@@ -284,6 +284,12 @@ body{
     border-radius:15px;
     padding:25px;
     background:#fff;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(37,99,235,0.15);
 }
 
 .project-card h4{
