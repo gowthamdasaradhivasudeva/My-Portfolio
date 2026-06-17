@@ -1,399 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nalluri Gowtham | Portfolio</title>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nalluri Gowtham — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
 
-    <!-- NAVBAR -->
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">NG</div>
+  <div id="navbarNav">
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-
-        <div class="container">
-
-            <a class="navbar-brand logo" href="#">
-                NG.
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-                <ul class="navbar-nav ms-auto">
-
-    <li class="nav-item">
-        <a class="nav-link" href="#home">Home</a>
-    </li>
-
-    <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-    </li>
-
-<li class="nav-item">
-    <a class="nav-link" href="#education">Education</a>
-</li>
-
-<li class="nav-item">
-    <a class="nav-link" href="#skills">Skills</a>
-</li>
-
-<li class="nav-item">
-    <a class="nav-link" href="#projects">Projects</a>
-</li>
-
-<li class="nav-item">
-    <a class="nav-link" href="#experience">Experience</a>
-</li>
-
-<li class="nav-item">
-    <a class="nav-link" href="#certifications">Certifications</a>
-</li>
-</ul>
-
-            </div>
-
-        </div>
-
-    </nav>
-
-    <!-- HERO SECTION -->
-
-    <section class="hero" id="home">
-
-        <div class="container">
-
-            <div class="row align-items-center gy-5">
-
-                <!-- LEFT -->
-
-                <div class="col-lg-7">
-
-                
-                    <div class="hero-title">
-
-    <span class="greeting">
-        Hi, I'm
-    </span>
-
-    <h1>
-       Nalluri Vasudeva Gowtham
-    </h1>
-
-</div>
-                    <h2>
-                        • Computer Science Undergraduate
-                        • Aspiring Software Developer 
-                    </h2>
-
-                    <p>
-                        <p><b>
-    Turning ideas into software while continuously learning modern development technologies.
-</b></p>
-                    </p>
-
-                    <div class="hero-buttons">
-
-                        <a href="#projects" class="btn-primary-custom">
-    Explore My Work
-</a>
-
-                        <a href="#contact" class="btn-secondary-custom">
-                            Start a Conversation
-                        </a>
-
-                    </div>
-
-                </div>
-
-                <!-- RIGHT -->
-
-                <div class="col-lg-5 text-center">
-
-                    <img src="images/profile.jpg" alt="Gowtham" class="profile-image">
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="about" class="about-section">
-
-    <div class="container">
-
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about-box">
-
-            <p>
-                Computer Science undergraduate who recently completed the second year of study, with a growing understanding of programming languages and core computer science concepts. Passionate about learning emerging technologies, gaining hands-on experience, and continuously improving problem-solving, analytical, and software development skills through practical projects and real-world applications.
-            </p>
-
-        </div>
-
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Open to Opportunities</div>
+    <h1>Nalluri<br/><span>Gowtham</span></h1>
+    <p class="hero-intro"><span class="hero-iam">I'm</span> <span class="hero-role">Computer Science Undergraduate</span></p>
+    <p class="hero-sub">Turning ideas into software while continuously learning modern development technologies.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+        Explore My Work
+      </a>
+      <a href="#contact" class="btn-secondary">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        Let's Connect
+      </a>
     </div>
-
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">9.23</div>
+        <div class="stat-label">CGPA · 4 Sems</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">B.Tech</div>
+        <div class="stat-label">CS Undergrad</div>
+      </div>
+    </div>
+  </div>
 </section>
 
-    <section id="education" class="education-section">
-
-    <h2 class="section-title">Education</h2>
-
-    <div class="education-list">
-
-        <div class="education-item">
-            <div class="education-year">
-                2024 – 2028
-            </div>
-
-            <div class="education-details">
-                <h4>ICFAI Foundation for Higher Education, Hyderabad</h4>
-                <p>B.Tech – Computer Science Engineering</p>
-                <span>CGPA: 9.15 (Upto 3rd Semester)</span>
-            </div>
-        </div>
-
-        <div class="education-item">
-            <div class="education-year">
-                2022 – 2024
-            </div>
-
-            <div class="education-details">
-                <h4>Resonance Junior College </h4>
-                <p>Intermediate (MPC)</p>
-                <span>Grade: 96.3%</span>
-            </div>
-        </div>
-
-        <div class="education-item">
-            <div class="education-year">
-                2021 – 2022
-            </div>
-
-            <div class="education-details">
-                <h4>Shree Swaminarayan Gurukul</h4>
-                <p>Secondary School Education</p>
-                <span>Grade: 87.3%</span>
-            </div>
-        </div>
-
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal">
+      <div class="about-photo-placeholder">
+        <img src="images/profile.jpg" alt="Nalluri Gowtham" />
+      </div>
+      <div class="about-deco"></div>
     </div>
-
-</section>
-    <!-- SKILLS -->
-
-    <section id="skills" class="skills-section">
-
-    <div class="container">
-
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-                <h4>Programming Languages</h4>
-                <p>C, Python, Java (Basics)</p>
-            </div>
-
-            <div class="skill-card">
-                <h4>Web Technologies</h4>
-                <p>HTML, CSS, JavaScript</p>
-            </div>
-
-            <div class="skill-card">
-                <h4>Database</h4>
-                <p>MySQL</p>
-            </div>
-
-            <div class="skill-card">
-    <h4>Core Subjects</h4>
-    <p>Object-Oriented Programming, DBMS, Operating Systems</p>
-</div>
-
-            <div class="skill-card">
-    <h4>DevOps & Cloud</h4>
-    <p>DevOps, Kubernetes</p>
-</div>
-
-        </div>
-
+    <div class="reveal">
+      <div class="section-eyebrow">About Me</div>
+      <h2 class="section-title">Curious. Driven. Always Growing.</h2>
+      <p style="color:var(--muted); line-height:1.8; margin-bottom:1rem;">
+        CS undergraduate at ICFAI Foundation for Higher Education, Hyderabad — currently in my second year, with a growing understanding of programming languages and core computer science concepts.
+      </p>
+      <p style="color:var(--muted); line-height:1.8;">
+        Passionate about emerging technologies and building practical software through real-world projects. Good communicator, organized, and always eager to grow — professionally and personally.
+      </p>
+      <div class="skills-chips">
+        <span class="chip">Python</span>
+        <span class="chip">Java</span>
+        <span class="chip">C</span>
+        <span class="chip">DevOps</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">MySQL</span>
+      </div>
     </div>
-
+  </div>
 </section>
 
-    <!-- PROJECTS -->
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="section-eyebrow reveal">Skills</div>
+  <h2 class="section-title reveal">What I Work With</h2>
+  <p class="section-sub reveal">A growing toolkit across programming, web, database, and core CS concepts.</p>
+  <div class="skills-categories">
 
-    <section id="projects" class="projects-section">
-
-    <div class="container">
-
-        <h2 class="section-title">Projects</h2>
-
-        <div class="projects-grid">
-
-            <div class="project-card">
-                <h4>Vehicle Rental System</h4>
-
-                <p class="tech-stack">
-                    Python, Flask, HTML, CSS, JavaScript, MySQL
-                </p>
-
-                <p>
-                    Developed a vehicle rental management system that allows users to view available vehicles, manage bookings, and maintain rental records through a structured database system.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h4>Personal Portfolio Website</h4>
-
-                <p class="tech-stack">
-                    HTML, CSS, Bootstrap
-                </p>
-
-                <p>
-                    Designed and developed a responsive personal portfolio website to showcase education, skills, projects, certifications, and professional information.
-                </p>
-            </div>
-
-        </div>
-
+    <div class="skill-cat reveal">
+      <div class="skill-cat-label"><span>💻</span> Programming</div>
+      <div class="skill-list">
+        <span class="chip">C</span>
+        <span class="chip">Python</span>
+        <span class="chip">Java (Basics)</span>
+      </div>
     </div>
 
-</section>
-
-    <!-- INTERNSHIP -->
-
-    <section id="experience" class="experience-section">
-
-    <div class="container">
-
-        <h2 class="section-title">Experience</h2>
-
-        <div class="experience-item">
-            <h4>DevOps Intern</h4>
-            <p><strong>CodeCrux Web Technologies Pvt. Ltd.</strong></p>
-            <p>May 2026 – Present</p>
-            <p>
-                Working as a DevOps Intern, gaining hands-on experience with AWS Cloud Services, Linux, automation, and modern cloud technologies.
-            </p>
-        </div>
-
-        <div class="experience-item">
-            <h4>Student Intern</h4>
-            <p><strong>TechQube AI Solutions</strong></p>
-            <p>Aug 2025 – Oct 2025</p>
-            <p>
-                Assisted in preparing and organizing technical documentation, presentations, and project materials while gaining practical experience in professional communication and content management.
-            </p>
-        </div>
-
+    <div class="skill-cat reveal">
+      <div class="skill-cat-label"><span>🌐</span> Web Technologies</div>
+      <div class="skill-list">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+      </div>
     </div>
 
-</section>
-
-    <!-- CERTIFICATIONS -->
-
-    <section id="certifications" class="certifications-section">
-
-    <h2 class="section-title">Certifications</h2>
-
-    <div class="cert-table-wrapper">
-
-        <table class="cert-table">
-
-            <thead>
-                <tr>
-                    <th>Certification</th>
-                    <th>Provider</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
-
-            <tbody>
-
-                <tr>
-                    <td>Azure AI-900</td>
-                    <td>Microsoft</td>
-                    <td>2025</td>
-                </tr>
-
-                <tr>
-                    <td>Java Programming Fundamentals</td>
-                    <td>Infosys Springboard</td>
-                    <td>2025</td>
-                </tr>
-
-                <tr>
-                    <td>Python Programming</td>
-                    <td>Kaggle</td>
-                    <td>2025</td>
-                </tr>
-
-            </tbody>
-
-        </table>
-
+    <div class="skill-cat reveal">
+      <div class="skill-cat-label"><span>🗄️</span> Database</div>
+      <div class="skill-list">
+        <span class="chip">MySQL</span>
+      </div>
     </div>
 
+    <div class="skill-cat reveal">
+      <div class="skill-cat-label"><span>📚</span> Core Subjects</div>
+      <div class="skill-list">
+        <span class="chip">DBMS</span>
+        <span class="chip">OOPs</span>
+        <span class="chip">Operating Systems</span>
+      </div>
+    </div>
+
+    <div class="skill-cat reveal">
+      <div class="skill-cat-label"><span>☁️</span> Currently Learning</div>
+      <div class="skill-list">
+        <span class="chip">AWS Cloud</span>
+        <span class="chip">DevOps</span>
+        <span class="chip">Kubernetes</span>
+      </div>
+    </div>
+
+  </div>
 </section>
-    <!-- CONTACT -->
 
-    <section id="contact" class="contact-section">
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <div class="section-eyebrow reveal">Projects</div>
+  <h2 class="section-title reveal">Things I've Built</h2>
+  <p class="section-sub reveal">Hands-on projects where I've applied my skills to solve real problems.</p>
+  <div class="projects-grid">
 
+    <div class="project-card reveal">
+      <div class="project-icon">🚗</div>
+      <div class="project-title">Vehicle Rental System</div>
+      <div class="project-stack">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">Flask</span>
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">JavaScript</span>
+        <span class="project-tag">MySQL</span>
+      </div>
+      <p class="project-desc">Developed a vehicle rental management system that allows users to view available vehicles, manage bookings, and maintain rental records through a structured database system.</p>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-icon">🌐</div>
+      <div class="project-title">Personal Portfolio Website</div>
+      <div class="project-stack">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">Bootstrap</span>
+      </div>
+      <p class="project-desc">Designed and developed a responsive personal portfolio website to showcase education, skills, projects, certifications, and professional information.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="certs" id="certifications">
+  <div class="section-eyebrow reveal">Certifications</div>
+  <h2 class="section-title reveal">Certified &amp; Learning</h2>
+  <p class="section-sub reveal">Credentials earned through dedicated learning on top platforms.</p>
+  <div class="certs-grid">
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">🧠</div>
+      <div>
+        <div class="cert-name">Azure AI-900</div>
+        <div class="cert-issuer">Microsoft</div>
+        <div class="cert-year">2025</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">☕</div>
+      <div>
+        <div class="cert-name">Java Programming Fundamentals</div>
+        <div class="cert-issuer">Infosys Springboard</div>
+        <div class="cert-year">2025</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">🐍</div>
+      <div>
+        <div class="cert-name">Python Programming</div>
+        <div class="cert-issuer">Kaggle</div>
+        <div class="cert-year">2025</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-eyebrow reveal">Experience</div>
+  <h2 class="section-title reveal">Where I've Worked</h2>
+  <p class="section-sub reveal">Real-world roles where I've applied and expanded my skills.</p>
+  <div class="exp-timeline">
+
+    <div class="exp-item reveal">
+      <div class="exp-dot-wrap"><div class="exp-dot"></div></div>
+      <div class="exp-card">
+        <div class="exp-card-shine"></div>
+        <div class="exp-header">
+          <div class="exp-role">DevOps Engineer Intern</div>
+          <div class="exp-date">May 2026 – Present</div>
+        </div>
+        <div class="exp-company">CodeCrux Web Technologies (P) Ltd. · Hyderabad</div>
+        <div class="exp-desc">Working with AWS Cloud Services, gaining hands-on experience in cloud infrastructure, deployment pipelines, and DevOps practices in a professional environment.</div>
+        <div class="exp-tags">
+          <span class="exp-skill-tag">AWS</span>
+          <span class="exp-skill-tag">Cloud Infrastructure</span>
+          <span class="exp-skill-tag">DevOps</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item reveal">
+      <div class="exp-dot-wrap"><div class="exp-dot"></div></div>
+      <div class="exp-card">
+        <div class="exp-card-shine"></div>
+        <div class="exp-header">
+          <div class="exp-role">DevOps Engineer Intern</div>
+          <div class="exp-date">May 2026 – Present</div>
+        </div>
+        <div class="exp-company">EcoScale · Hyderabad</div>
+        <div class="exp-desc">Contributing to DevOps workflows and cloud operations, developing practical skills in scalable system management and infrastructure tooling.</div>
+        <div class="exp-tags">
+          <span class="exp-skill-tag">Kubernetes</span>
+          <span class="exp-skill-tag">Infrastructure</span>
+          <span class="exp-skill-tag">DevOps</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item reveal">
+      <div class="exp-dot-wrap"><div class="exp-dot"></div></div>
+      <div class="exp-card">
+        <div class="exp-card-shine"></div>
+        <div class="exp-header">
+          <div class="exp-role">Student Intern</div>
+          <div class="exp-date">Aug 2025 – Oct 2025</div>
+        </div>
+        <div class="exp-company">TechQube AI · Hyderabad</div>
+        <div class="exp-desc">Assisted in organizing and formatting PowerPoint presentations and Word documents to company standards. Supported document review and content management — ensuring formatting accuracy, visual consistency, and use of copyright-free resources.</div>
+        <div class="exp-tags">
+          <span class="exp-skill-tag">Documentation</span>
+          <span class="exp-skill-tag">PowerPoint</span>
+          <span class="exp-skill-tag">Content Management</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="edu" id="education">
+  <div class="section-eyebrow reveal">Education</div>
+  <h2 class="section-title reveal">Academic Background</h2>
+  <p class="section-sub reveal">The foundation that supports everything else I build.</p>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-icon">🎓</div>
+      <div class="edu-degree">B.Tech — Computer Science</div>
+      <div class="edu-school">ICFAI Foundation for Higher Education, Hyderabad</div>
+      <div class="edu-period">2024 – 2028</div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-icon">📐</div>
+      <div class="edu-degree">Intermediate (MPC)</div>
+      <div class="edu-school">Resonance Eduventures Limited</div>
+      <div class="edu-period">2022 – 2024</div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-icon">🏫</div>
+      <div class="edu-degree">Secondary School Education</div>
+      <div class="edu-school">Shree Swaminarayan Gurukul Vid</div>
+      <div class="edu-period">2021 – 2022</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner reveal">
+    <div class="section-eyebrow">Contact</div>
     <h2 class="section-title">Let's Connect</h2>
-
+    <p style="color:var(--muted); margin-top:0.5rem; max-width:420px; margin-left:auto; margin-right:auto;">
+      I'm open to internships, collaborations, and learning opportunities. Reach out anytime.
+    </p>
     <div class="contact-pill">
-
-        <a href="mailto:nallurigowtham3338@gmail.com">
-            <i class="fas fa-envelope"></i> Gmail
-        </a>
-
-        <a href="https://github.com/gowthamdasaradhivasudeva?tab=repositories" target="_blank">
-            <i class="fab fa-github"></i> GitHub
-        </a>
-
-        <a href="https://www.linkedin.com/in/nalluri-gowtham-30834b341/" target="_blank">
-            <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-
+      <a href="mailto:nallurigowtham3338@gmail.com" class="contact-pill-link">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        Gmail
+      </a>
+      <div class="pill-divider"></div>
+      <a href="https://github.com/gowthamdasaradhivasudeva" target="_blank" rel="noopener" class="contact-pill-link">
+        <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.026 2.747-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.522 2 12 2z"/></svg>
+        GitHub
+      </a>
+      <div class="pill-divider"></div>
+      <a href="https://www.linkedin.com/in/nalluri-gowtham-30834b341/" target="_blank" rel="noopener" class="contact-pill-link">
+        <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
     </div>
-
+  </div>
 </section>
 
-<footer class="footer">
-    © 2026 Nalluri Vasudeva Gowtham. All Rights Reserved.
+<footer>
+  <p>© 2026 Nalluri Gowtham · Built with purpose.</p>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Scroll restore — always start at top on load
+  history.scrollRestoration = "manual";
+  window.addEventListener("load", () => {
+    window.scrollTo(0, 0);
+  });
 
-<script src="script.js"></script>
+  // Close mobile nav when a link is clicked
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      const navbarCollapse = document.getElementById('navbarNav');
+      if (navbarCollapse.classList.contains('show')) {
+        navbarCollapse.classList.remove('show');
+      }
+    });
+  });
 
-</body>
-</html>
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => io.observe(el));
+
+  // Shine effect on experience cards
+  document.querySelectorAll('.exp-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      card.querySelector('.exp-card-shine').style.background =
+        `radial-gradient(circle at ${x}% ${y}%, rgba(79,142,247,0.13) 0%, transparent 65%)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.querySelector('.exp-card-shine').style.background = 'none';
+    });
+  });
 </script>
 </body>
-
 </html>
